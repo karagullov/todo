@@ -1,0 +1,54 @@
+.App {
+  width: 555px;
+  min-height: 120px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 120px auto;
+}
+
+.content {
+  padding: 10px;
+}
+
+.todosWrapper {
+  border: 1px solid rgb(192, 192, 192);
+  margin-top: 15px;
+}
+
+.todosWrapper>div:nth-child(odd) {
+  background: rgb(207, 207, 207);
+}
+
+.mainBtn {
+  background: rgb(1, 116, 204);
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.mainInput {
+  padding: 10px;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 7px;
+}
+
+.mainInput:focus {
+  outline: none;
+}
+
+.editInput {
+  padding: 7px;
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 7px;
+}
+
+.editBtn {
+  background: rgb(1, 116, 204);
+  padding: 7px 20px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

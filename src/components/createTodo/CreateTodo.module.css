@@ -1,0 +1,12 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+}
+
+.wrapper > input {
+  border-radius: 7px 0 0 7px;
+}
+
+.wrapper > button {
+  border-radius: 0px 7px 7px 0px;
+}
